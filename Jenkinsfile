@@ -4,10 +4,8 @@ pipeline {
         stage('build') {
             steps {
                 echo "This is build step"
-                sh 'echo using shell within Jenkinsfile ZZZZZZZZZZZ'
-                echo 'not using shell in the Jenkinsfile ZZZZZZZZZ'
-                echo 'Bu satiri Zarifjan Baltayev Ekledi'
-                echo ' bu ise en son deneme olsa olsa bu kadar olur '
+                sh 'echo using shell within Jenkinsfile '
+                echo 'not using shell in the Jenkinsfile '
             }
         }
     }
