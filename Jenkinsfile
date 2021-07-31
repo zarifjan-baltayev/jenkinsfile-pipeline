@@ -4,8 +4,8 @@ pipeline {
         stage('build') {
             steps {
                 echo "This is build step"
-                sh 'echo using shell within Jenkinsfile'
-                echo 'not using shell in the Jenkinsfile'
+                sh 'echo using shell within Jenkinsfile ZZZZZZZZZZZ'
+                echo 'not using shell in the Jenkinsfile ZZZZZZZZZ'
             }
         }
     }
